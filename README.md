@@ -26,9 +26,9 @@ map.add(:marilyn, :joe)
 map.add(:melinda, :bill)
 
 map.forward(:jill) # :jack
-map.reverse(:joe) # :marilyn
+map.inverse(:joe) # :marilyn
 map.forward_image([:jill, :melinda]) # [:jack, :bill]
-map.reverse_image([:bill, :jack]) # [:melinda, :jill]
+map.inverse_image([:bill, :jack]) # [:melinda, :jill]
 ```
 
 It also includes the `Enumerable` module, and yields `[:from, :to]` pairs, eg `[:jill, :jack]`
