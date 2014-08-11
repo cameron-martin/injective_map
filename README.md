@@ -36,6 +36,11 @@ It also includes the `Enumerable` module, and yields `[:from, :to]` pairs, eg `[
 ## TODO
 
 * Add tests.
+* Think of better names for the methods, and add more
+  * apply
+  * inverse or inverse_apply?
+  * How to differentiate between two different types of image,
+    when the inverse doesn't have 2 names for the same thing.
 
 ## Contributing
 
